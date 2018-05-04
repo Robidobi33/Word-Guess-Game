@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    background-image: url(http://cdn.collider.com/wp-content/uploads/2018/03/adult-swim-festival-rick-and-morty-run-the-jewels.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+}
+
+h1{
+    position:absolute;
+    width:300px;
+    margin-top:0px;
+    display:inline-block;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+}
+
+#guessBox{
+    background-color:rgba(127, 255, 212, 0);
+    width:500px;
+    height:200px;
+    margin: 0px auto 0px auto;
+    text-align:center;
+    line-height: 200px;
+    font-size:30px;
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#box{
+    background-color:rgba(127, 255, 212, 0.705);
+    border:5px outset rgb(0, 0, 0);
+    width:500px;
+    height:500px;
+    margin: 50px auto 0px auto;
+    text-align:center;
+    line-height: 200px;
+    font-size:50px;
+    position: relative;
+}
+
+#start{
+    width:100px;
+    height:50px;
+    background-color: darkorchid;
+    margin-top: 25px;
+    margin-left:auto;
+    margin-right:auto;
+    border:5px solid black;
+    color:white;
+    position: relative;
+    display:block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+#start:hover{
+    background-color:rgba(127, 255, 212);
+    color:black;
+}
