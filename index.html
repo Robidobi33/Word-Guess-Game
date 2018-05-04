@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Guess The Word</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/javascript/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/rickandmorty/images/9/93/Pocket_Mortys_App_Icon_1.3.2.jpg/revision/latest?cb=20160910015222">
+
 </head>
 <body>
     <h1>Rick and Morty: Guess The Word</h1>
@@ -15,10 +17,10 @@
     <button onclick = "startGame()" id = "start">Start</button>
 
     <div id = "box">
+        <p id = "pick"></p>
         <div id = "guessBox">Press Start to play!</div>
+       <input id = "hidden" type="text" size ="5px" onkeydown=""/>
     </div> 
-
-    <div></div>
 
 </body>
 </html>
