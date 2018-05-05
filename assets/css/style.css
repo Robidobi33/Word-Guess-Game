@@ -19,7 +19,7 @@ h1{
 #guessBox{
     background-color:rgba(127, 255, 212, 0);
     width:500px;
-    height:100px;
+    height:50px;
     margin: 0px auto 0px auto;
     text-align:center;
     line-height: 200px;
@@ -38,6 +38,7 @@ h1{
     line-height: 200px;
     font-size:50px;
     position: relative;
+    overflow: auto;
 }
 
 #start{
@@ -60,6 +61,26 @@ h1{
     color:black;
 }
 
+#quit{
+    width:100px;
+    height:50px;
+    background-color: darkorchid;
+    margin-top: 25px;
+    margin-left:auto;
+    margin-right:auto;
+    border:5px solid black;
+    color:white;
+    position: relative;
+    display:block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+#quit:hover{
+    background-color:rgba(127, 255, 212);
+    color:black;
+}
+
 #hidden{
     background-color:rgba(127, 255, 212, 0);
     font-family: 'Permanent Marker', cursive;
@@ -70,10 +91,48 @@ h1{
 }
 
 #pick{
-    margin-bottom: -75px;
+    margin-bottom: 0px;
     font-size:25px;
     margin:0px auto 0px auto;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
 
 }
+
+#scoreBox{
+    height:100px;
+    width:200px;
+    background-color: rgba(250, 235, 215, 0);
+    float:left;
+    position: absolute;
+    margin-top: -500px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:25px;
+    color:white;
+}
+
+#lives{
+    height:100px;
+    width:200px;
+    background-color: rgba(250, 235, 215, 0);
+    float:left;
+    position: absolute;
+    margin-top: -450px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:25px;
+    color:white;
+}
+
+#chosen{
+    height:500px;
+    width:200px;
+    background-color: rgba(250, 235, 215, 0);
+    float:left;
+    position: absolute;
+    margin-top: -400px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:25px;
+    color:white;
+}
+
+
