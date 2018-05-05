@@ -58,11 +58,12 @@ function startGame(){
                 document.getElementById("chosen").innerHTML = "Chosen Letters: " + lettersGuessed.join(" ");
 
                 if(pos >= 0){
-                    
+                    underscores[pos] = guess;
                     for(i=pos;i<word.length;i++){
-                        underscores[pos] = guess;
                         pos = word.indexOf(guess,i++);
+                        underscores[pos] = guess;
                         if (pos !== -1){i=pos; rightGuess++}
+                       
                     }//for loop
                 
                     document.getElementById("guessBox").innerHTML = underscores.join("");
